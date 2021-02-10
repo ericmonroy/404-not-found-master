@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div,
+img,
+p,
+h2,
+small {
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    outline: none;
+}
+
+.title {
+    width: 75%;
+    margin: 0 auto;
+}
+.title h2 {
+    font-family: Inconsolata, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.container_notfound {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-top: 10rem;
+}
+
+.scarecrow {
+    display: flex;
+    padding: 12px;
+    width: 50%;
+}
+.scarecrow img {
+    width: 580px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.info h2 {
+    font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    margin-top: 12px;
+    margin-bottom: 2rem;
+    width: 60%;
+}
+.info p {
+    font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    margin-top: 18px;
+    margin-bottom: 2rem;
+    width: 45%;
+}
+
+.info button {
+    font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: white;
+    width: 216px;
+    height: 68px;
+    top: 40px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
+    -webkit-transition-property: color, border-color, background-color;
+    transition-property: color, border-color, background-color;
+}
+.info button:hover {
+    background-color: white;
+    color: #333333;
+    border: 3px solid #333333;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
+    -webkit-transition-property: color, border-color, background-color;
+    transition-property: color, border-color, background-color;
+}
+.info button:active {
+    background-color: #333333;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    padding: 0;
+}
+.footer small {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+/* 
+@media screen and (max-width: 1520px) {
+    .info p {
+        width: 60%;
+    }
+    .info h2 {
+        font-family: Space Mono, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        margin-top: 12px;
+        margin-bottom: 2rem;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .info p {
+    }
+}
+ */
